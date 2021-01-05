@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1606802138800' stop='1606802144734'>
+    <name>Practice Form Code Challenge</name>
+    <title>Practice Form Code Challenge</title>
+    <test-cases>
+        <test-case start='1606802138800' status='broken' stop='1606802144733'>
+            <name>should allow use to fill and submit the practice form</name>
+            <title>should allow use to fill and submit the practice form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.66'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='eb2db975-ac7b-46ba-8707-b9d1137477ea-attachment.png' type='image/png' size='109374'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=87.0.4280.66)</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=87.0.4280.66)
+                    at Object.getErrorFromResponseBody (C:\Development\WebdriverIOTest\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Development\WebdriverIOTest\node_modules\webdriver\build\request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Development\WebdriverIOTest\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at Element.runCommandWithHooks (C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.click (C:\Development\WebdriverIOTest\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Development\WebdriverIOTest\tests\/practiceForm-spec.js:18:17)
+                    at Context.executeSync (C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

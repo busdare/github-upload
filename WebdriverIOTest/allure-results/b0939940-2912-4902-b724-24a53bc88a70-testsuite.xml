@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1606892721656' stop='1606892726548'>
+    <name>Practice Form Code Challenge</name>
+    <title>Practice Form Code Challenge</title>
+    <test-cases>
+        <test-case start='1606892721657' status='passed' stop='1606892726547'>
+            <name>should allow use to fill and submit the practice form</name>
+            <title>should allow use to fill and submit the practice form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.66'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c6091cba-f034-4ad7-a4b9-654585a79f7a-attachment.png' type='image/png' size='72460'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

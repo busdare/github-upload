@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1606803385405' stop='1606803411414'>
+    <name>Practice Form Code Challenge</name>
+    <title>Practice Form Code Challenge</title>
+    <test-cases>
+        <test-case start='1606803385405' status='broken' stop='1606803411413'>
+            <name>should allow use to fill and submit the practice form</name>
+            <title>should allow use to fill and submit the practice form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.66'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ce4d3132-da43-4c1b-a09c-49874e3d076f-attachment.png' type='image/png' size='27460'/>
+            </attachments>
+            <failure>
+                <message>Option with text "Chemistry" not found.</message>
+                <stack-trace>Error: Option with text "Chemistry" not found.
+                    at Element.selectByVisibleText (C:\Development\WebdriverIOTest\node_modules\webdriverio\build\commands\element\selectByVisibleText.js:24:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Development\WebdriverIOTest\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at Element.runCommandWithHooks (C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.selectByVisibleText (C:\Development\WebdriverIOTest\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Development\WebdriverIOTest\tests\/practiceForm-spec.js:22:17)
+                    at Context.executeSync (C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Development\WebdriverIOTest\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
